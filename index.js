@@ -8,22 +8,22 @@ const questions = [
     {
         type: 'input', 
         name: 'github', 
-        message: 'michelle-aguirre'
+        message: 'What is your GitHub username?'
     },
     {
         type: 'input', 
         name: 'email', 
-        message: 'michelleaguirre875@gmail.com'
+        message: 'What is your email address?'
     },
     {
         type: 'input', 
         name: 'title', 
-        message: 'Professional README Generator'
+        message: 'What is your project name?'
     },
     {
         type: 'input', 
         name: 'description', 
-        message: 'This application generates a README file automatically based on the users input.'
+        message: 'Write a brief description of your project'
     },
     {
         type: 'input', 
@@ -40,12 +40,12 @@ const questions = [
     {
         type: 'input', 
         name: 'usage', 
-        message: 'As a developer I want a README generator so that I can quickly create a professional README for a new project.'
+        message: 'What does the user need to know about using the repo?'
     },
     {
         type: 'input', 
         name: 'contributing', 
-        message: 'Made by Michelle Aguirre'
+        message: 'Are there any additional contributors to this project?'
     },
     {
         type: 'list', 
